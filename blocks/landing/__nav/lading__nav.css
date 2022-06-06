@@ -1,0 +1,12 @@
+.landing__nav {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 2;
+  top: 2.5rem;
+  position: absolute;
+  min-width: 90rem;
+  column-gap: 60px;
+}

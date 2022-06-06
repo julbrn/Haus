@@ -1,0 +1,12 @@
+.landing__heading {
+  z-index: 4;
+  width: 31rem;
+  height: 12rem;
+  padding: 0 0 0 3.75rem;
+  color: #fff;
+  line-height: 1.12;
+  font-size: 4.56rem;
+  font-weight: normal;
+  font-family: 'Liberation Serif';
+  font-weight: 400;
+}

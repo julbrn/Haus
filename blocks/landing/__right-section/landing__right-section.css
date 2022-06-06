@@ -1,0 +1,11 @@
+.landing__right-section{
+  left: 45rem;
+  top: 17rem;
+  margin: 0;
+  background-color: #996B60;
+  min-width: 45rem;
+  min-height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

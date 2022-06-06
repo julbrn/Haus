@@ -1,0 +1,5 @@
+.aperitifs {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3.75rem 0;
+}

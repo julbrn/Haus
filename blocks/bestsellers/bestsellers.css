@@ -1,0 +1,8 @@
+.bestsellers {
+  display: flex;
+  align-items: center;
+  padding: 6.5rem 0 0 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 3.75rem 0;
+}

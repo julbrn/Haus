@@ -1,0 +1,12 @@
+.page {
+  box-sizing: border-box;
+  min-width: 1100px;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Roboto';
+}
+
+::selection {
+  background: #f0b5a6;
+  ;
+}

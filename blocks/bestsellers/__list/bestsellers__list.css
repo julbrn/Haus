@@ -1,0 +1,7 @@
+.bestsellers__list {
+  display: flex;
+  column-gap: 3.4rem;
+  list-style-type: none;
+  padding: 0;
+  margin: 5.1rem 0 0 0;
+}

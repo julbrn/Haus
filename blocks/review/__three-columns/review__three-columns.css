@@ -1,0 +1,6 @@
+.review__three-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+  height: 100%;
+}
