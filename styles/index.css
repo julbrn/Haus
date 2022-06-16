@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/main-content/main-content.css);
 @import url(../blocks/shipping/shipping.css);
 @import url(../blocks/shipping/__info/shipping__info.css);
 @import url(../blocks/link/link.css);
@@ -21,7 +20,6 @@
 @import url(../blocks/quotes/__card/quotes__card.css);
 @import url(../blocks/quotes/__pic/quotes__pic.css);
 @import url(../blocks/quotes/__text/quotes__text.css);
-@import url(../blocks/heading/heading.css);
 @import url(../blocks/bestsellers/bestsellers.css);
 @import url(../blocks/bestsellers/__circle/bestsellers__item-circle.css);
 @import url(../blocks/bestsellers/__circle-text/bestsellers__circle-text.css);
@@ -29,10 +27,6 @@
 @import url(../blocks/bestsellers/__item/bestsellers__item.css);
 @import url(../blocks/bestsellers/__link/bestsellers__link.css);
 @import url(../blocks/bestsellers/__list/bestsellers__list.css);
-@import url(../blocks/bestsellers/__text/bestsellers__item-text.css);
-@import url(../blocks/bestsellers/__title/bestsellers__item-title.css);
-@import url(../blocks/bestsellers/__item-title/bestsellers__item-title.css);
-@import url(../blocks/bestsellers/__item-text/bestsellers__item-text.css);
 @import url(../blocks/bestsellers/__item/bestsellers__item.css);
 @import url(../blocks/aperitifs/aperitifs.css);
 @import url(../blocks/aperitifs/__heading/aperitifs__heading.css);
@@ -49,9 +43,6 @@
 @import url(../blocks/review/__three-columns/review__three-columns.css);
 @import url(../blocks/review/__verified-byer/review__verified-buyer.css);
 
-.main-content {
-  border: 1px solid yellowgreen;
-}
 
 hr {
   background-color: #BDBDBD;
@@ -291,18 +282,13 @@ hr {
   visibility: hidden;
   opacity: 0;
   transform: translateX(-15px);
-  transition: opacity 0.4s, transform 0.3s;
+  transition: opacity 0.8s, transform 0.9s;
 }
 
 .header__tooltip:hover::after {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
-}
-
-.popup_active {
-  visibility: visible;
-  opacity: 1;
 }
 
 .popup {
@@ -319,6 +305,12 @@ hr {
   background-color: rgba(0, 0, 0, .8);
   visibility: hidden;
   opacity: 0;
+  transition: all .8s ease;
+}
+
+.popup_active {
+  visibility: visible;
+  opacity: 1;
 }
 
 .popup__container {

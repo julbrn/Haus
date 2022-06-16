@@ -6,3 +6,11 @@
   font-size: 0.75rem;
   line-height: 1.12rem;
 }
+
+
+.bestsellers__link:hover {
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #996B60;
+}
