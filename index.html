@@ -25,7 +25,7 @@
         <a href="#" class="landing__nav_item uppercase link">membership</a>
         <a href="#" class="landing__nav_item uppercase link">our story</a>
         <a href="#" class="landing__nav_item uppercase link">newsletter</a>
-        <a href="#" class="landing__nav_item uppercase link">account</a>
+        <a href="#" id="account" class="landing__nav_item uppercase link">account</a>
         <a href="#" class="landing__nav_item uppercase link">cart (0)</a>
       </nav>
     </section>
@@ -193,16 +193,26 @@
   </footer>
   <div class="popup">
     <div class="popup__container">
-      <h1 class="popup__title uppercase">sign in</h1>
+      <img class="popup__close-button" src="./images/popup/1544641784.svg"
+           alt="close button">
       <form class="popup__form">
-        <label class="popup__label uppercase" for="email">email address</label>
-        <input class="popup__email" type="text" name="email" class="popup__input">
-        <label class="popup__label uppercase" for="password">password</label>
-        <input class="popup__password" type="text" name="password" class="popup__input">
-        <button type="button" name="button" value="sign-in" class="popup__signin-btn uppercase">sign in</button>
+        <fieldset class="popup__form-fieldset">
+          <legend class="popup__title uppercase">
+            sign in
+          </legend>
+          <label class="popup__label uppercase" for="email">email address</label>
+          <input class="popup__email" type="email" name="email" class="popup__input" required>
+          <label class="popup__label uppercase" for="password">password</label>
+          <input class="popup__password" type="text" name="password" class="popup__input"
+                 minlength="7"
+                 required>
+          <button type="submit" name="button" value="sign-in"
+                  class="popup__signin-btn uppercase">sign in</button>
+        </fieldset>
       </form>
-      <p class="popup__password-reset">Forgot your password?</p>
+      <a class="popup__password-reset">Forgot your password?</a>
     </div>
   </div>
+<script src="scripts/index.js"></script>
 </body>
 </html>
