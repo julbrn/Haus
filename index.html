@@ -32,20 +32,27 @@
   </header>
   <main class="main-content">
     <section class="quotes">
-      <ul class="quotes__cards">
-        <li class="quotes__card">
+      <div class="quotes__cards-container">
+        <div class="quotes__card">
           <blockquote class="quotes__text">"What makes Haus so special is its incredible flavors."</blockquote>
           <img class="quotes__pic" src="images/quotes/Food_n_Wine_logo.png">
-        </li>
-        <li class="quotes__card">
+        </div>
+        <div class="quotes__card">
           <blockquote class="quotes__text">“For the wine or cocktail lover who’s tried it all and wants something new and refreshing.”</blockquote>
           <img class="quotes__pic" src="images/quotes/The_New_York_Times_logo.png">
-        </li>
-        <li class="quotes__card">
+        </div>
+        <div class="quotes__card">
           <blockquote class="quotes__text">“Cleaner, responsibly sourced, and lower in alcohol.”</blockquote>
           <img class="quotes__pic" src="images/quotes/bon_appetit_logo.png">
-        </li>
-      </ul>
+        </div>
+        <a class="arrow_button arrow_button_previous" onclick="changeSlide(-1)">&#x3c;</a>
+        <a class="arrow_button arrow_button_next" onclick="changeSlide(1)">&#x3e;</a>
+      </div>
+      <div class="slider-dots">
+        <span class="slider-dot" onclick="currentSlide(1)"></span>
+        <span class="slider-dot" onclick="currentSlide(2)"></span>
+        <span class="slider-dot" onclick="currentSlide(3)"></span>
+      </div>
       <hr>
     </section>
     <section class="bestsellers">

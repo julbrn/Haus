@@ -1,0 +1,10 @@
+.quotes__cards-container {
+  padding: 0;
+  margin: 3.7rem auto 2.6rem;
+  width: 89%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
