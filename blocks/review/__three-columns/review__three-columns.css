@@ -3,4 +3,16 @@
   justify-content: space-between;
   width: 93%;
   height: 100%;
+  position: absolute;
+  animation: slidingText 35s linear infinite;
+}
+
+@keyframes slidingText {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(1380px);
+  }
 }
