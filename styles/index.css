@@ -43,6 +43,9 @@
 @import url(../blocks/review/__three-columns/review__three-columns.css);
 @import url(../blocks/review/__verified-byer/review__verified-buyer.css);
 @import url(../blocks/button/_place/button_place_spotify.css);
+@import url(../blocks/quotes/__card/_active/quotes__card_active.css);
+@import url(../blocks/popup/__container/popup__container.css);
+
 
 
 hr {
@@ -314,16 +317,7 @@ hr {
   opacity: 1;
 }
 
-.popup__container {
-  background-color: #fff;
-  border-radius: 9px;
-  width: 500px;
-  height: 420px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .popup__form {
   display: flex;
@@ -403,9 +397,7 @@ hr {
   transform: scale(1.2);
 }
 
-.popup__container {
-  position: relative;
-}
+
 
 .arrow_button {
   color: #996B60;
@@ -447,7 +439,7 @@ hr {
   transform: scale(1.1);
 }
 
-.active {
+.slider-dots_active {
   border: 1px solid #ca8070;
   transform: scale(1.1);
 }

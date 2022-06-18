@@ -56,6 +56,6 @@ function showSlide(n) {
     dots[i].className = dots[i].className.replace("active", " ");
   }
   slides[slideIndex-1].classList.add("quotes__card_active");
-  dots[slideIndex-1].classList.add("active");
+  dots[slideIndex-1].classList.add("slider-dots_active");
 }
 
