@@ -42,6 +42,7 @@
 @import url(../blocks/review/__column/review__column.css);
 @import url(../blocks/review/__three-columns/review__three-columns.css);
 @import url(../blocks/review/__verified-byer/review__verified-buyer.css);
+@import url(../blocks/button/_place/button_place_spotify.css);
 
 
 hr {
@@ -386,7 +387,7 @@ hr {
   height: 40px;
   width: 40px;
   fill: #fff;
-  opacity: .7;
+  opacity: .8;
   position: absolute;
   top: -45px;
   right: -45px;
@@ -395,7 +396,7 @@ hr {
 
 .popup__close-button:hover {
   cursor: pointer;
-  opacity: .9;
+  opacity: 1;
 }
 
 .popup__close-button:active {

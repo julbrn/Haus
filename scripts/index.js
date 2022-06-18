@@ -40,8 +40,8 @@ function currentSlide(n) {
 
 function showSlide(n) {
   let i;
-  let slides = document.getElementsByClassName("quotes__card");
-  let dots = document.getElementsByClassName("slider-dot");
+  let slides = document.querySelectorAll(".quotes__card");
+  let dots = document.querySelectorAll(".slider-dot");
 
   if (n > slides.length) {
     slideIndex = 1
@@ -50,12 +50,12 @@ function showSlide(n) {
     slideIndex = slides.length;
   }
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].classList.remove("quotes__card_active");
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace("active", " ");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className+= " active";
+  slides[slideIndex-1].classList.add("quotes__card_active");
+  dots[slideIndex-1].classList.add("active");
 }
 

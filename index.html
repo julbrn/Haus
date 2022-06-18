@@ -129,7 +129,7 @@
        <div class="difference__column">
          <h2 class="difference__heading">We do things differently than most producers</h2>
          <p class="difference__text">Our flavors are derived from real fruits, herbs, and botanicals, not ingredients from a lab. We leave out the artificial ingredients and excess sugar, and tell you what’s inside. It’s a better way to drink.</p>
-         <a href="#" class="bestsellers__link difference__link uppercase">learn more</a>
+         <a href="#" class="bestsellers__link difference__link uppercase link">learn more</a>
        </div>
     </section>
     <section class="contacts">
@@ -137,14 +137,14 @@
         <h2 class="contacts__heading">Set the mood</h2>
         <p class="contacts__text">Curated playlists from Woody + Helena, plus some of our friends and favorite brands.
         </p>
-        <button class="button uppercase">spotify</button>
+        <button class="button uppercase button_place_spotify">spotify</button>
       </div>
       <address class="contacts__links">
         <h3 class="contacts__text">Follow us, share us, drink Ha(us)</h3>
         <ul class="contacts__list-of-links">
-          <li><a class="contacts__link uppercase" href="#">instagram</a></li>
-          <li><a class="contacts__link uppercase" href="#">twitter</a></li>
-          <li><a class="contacts__link  uppercase" href="#">facebook</a></li>
+          <li><a class="contacts__link uppercase link" href="#">instagram</a></li>
+          <li><a class="contacts__link uppercase link" href="#">twitter</a></li>
+          <li><a class="contacts__link  uppercase link" href="#">facebook</a></li>
         </ul>
       </address>
     </section>
@@ -208,9 +208,11 @@
             sign in
           </legend>
           <label class="popup__label uppercase" for="email">email address</label>
-          <input class="popup__email" type="email" name="email" class="popup__input" required>
+          <input class="popup__email" type="email" id="email" name="email" class="popup__input"
+                 required>
           <label class="popup__label uppercase" for="password">password</label>
-          <input class="popup__password" type="text" name="password" class="popup__input"
+          <input class="popup__password" type="text" id="password" name="password"
+                 class="popup__input"
                  minlength="7"
                  required>
           <button type="submit" name="button" value="sign-in"

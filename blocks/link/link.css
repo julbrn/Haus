@@ -1,4 +1,12 @@
 .link {
   text-decoration: none;
   color: #fff;
+  transition: opacity .7s ease-out;
+}
+
+.link:hover {
+  cursor: pointer;
+  opacity: .6;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
