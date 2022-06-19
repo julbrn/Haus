@@ -1,0 +1,27 @@
+.footer {
+  background-color: #000;
+  width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 0;
+  padding: 45px 60px 40px;
+  display: grid;
+  grid-template-areas:
+  "footer__email footer__column1 footer__column2 footer__column3"
+  "footer__pocilies footer__pocilies footer__pocilies footer__pocilies";
+  grid-template-columns: 2.5fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-row-gap: 140px;
+}
+
+@media screen and (max-width: 1060px) {
+  .footer {
+    grid-template-areas:
+    "footer__email footer__email footer__email"
+    "footer__column1 footer__column2 footer__column3"
+    "footer__pocilies footer__pocilies footer__pocilies";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 40px;
+  }
+}

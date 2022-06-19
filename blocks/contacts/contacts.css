@@ -1,0 +1,7 @@
+.contacts {
+  background-image: url("../../images/contacts/social-networks-background.png");
+  object-fit: cover;
+  display: flex;
+  min-height: 568px;
+  flex-direction: column;
+}

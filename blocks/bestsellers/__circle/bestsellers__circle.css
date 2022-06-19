@@ -9,3 +9,9 @@
   right: 1.18rem;
   z-index: 2;
 }
+
+@media screen and (max-width: 1360px) {
+  .bestsellers__circle  {
+    right: 7.5rem;
+  }
+}

@@ -1,0 +1,5 @@
+.difference__column {
+  display: flex;
+  flex-direction: column;
+  width: 39.2rem;
+}

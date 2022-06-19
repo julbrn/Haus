@@ -3,3 +3,10 @@
   justify-content: space-between;
   margin: 3.68rem 3.75rem 3.75rem;
  }
+
+@media screen and (max-width: 1400px) {
+  .advantages  {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

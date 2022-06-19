@@ -1,8 +1,12 @@
 .landing {
   background-color: #996B60;
-  position: relative;
-  z-index: 1;
-  height: 50rem;
   overflow: hidden;
   display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 1135px) {
+  .landing {
+    flex-direction: column;
+  }
 }

@@ -1,8 +1,15 @@
 .landing__left-section {
-  min-width: 45rem;
+  width: 50%;
   min-height: 50rem;
   top: 0;
   left: 0;
-  z-index: 0;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1135px) {
+  .landing__left-section {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 }

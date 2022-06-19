@@ -2,3 +2,10 @@
   width: 880px;
   height: 608px;
 }
+
+@media screen and (max-width: 1400px) {
+  .advantages__pic  {
+    width: 100%;
+    object-fit: contain;
+  }
+}

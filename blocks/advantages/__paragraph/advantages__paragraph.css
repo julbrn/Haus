@@ -3,3 +3,9 @@
   font-size: 1.12rem;
   line-height: 2rem;
 }
+
+@media screen and (max-width: 1400px) {
+  .advantages__paragraph  {
+    width: 80%;
+  }
+}

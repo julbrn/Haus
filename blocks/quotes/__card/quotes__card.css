@@ -5,9 +5,8 @@
   text-align: center;
   visibility: hidden;
   opacity: 0;
+  display: block;
   position: absolute;
-  top: 40%;
-  left: 38%;
   transition: all 1s ease-in;
 }
 

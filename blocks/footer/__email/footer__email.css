@@ -1,0 +1,5 @@
+.footer__email {
+  font-family: 'Liberation Serif';
+  grid-area: footer__email;
+  max-width: 440px;
+}
