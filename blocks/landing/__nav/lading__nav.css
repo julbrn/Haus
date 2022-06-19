@@ -1,12 +1,23 @@
 .landing__nav {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   z-index: 2;
   top: 2.5rem;
   position: absolute;
-  min-width: 90rem;
-  column-gap: 60px;
+  width: 94%;
+  column-gap: 4rem;
 }
+@media screen and (max-width: 1135px) {
+  .landing__nav {
+    min-height: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    column-gap: 3rem;
+    row-gap: 1rem;
+    text-align: center;
+  }
+}
+

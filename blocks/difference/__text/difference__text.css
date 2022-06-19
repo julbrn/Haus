@@ -8,5 +8,7 @@
 @media screen and (max-width: 1400px) {
   .difference__text {
     padding-top: 3rem;
+    text-align: center;
+    margin: 0 12px 0;
   }
 }

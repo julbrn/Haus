@@ -7,3 +7,11 @@
   font-family: 'Liberation Serif';
   font-weight: 400;
 }
+
+
+@media screen and (max-width: 1400px) {
+  .aperitifs__heading {
+    max-width: 400px;
+    font-size: 2.7rem;
+  }
+}

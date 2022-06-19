@@ -1,3 +1,9 @@
 .difference__link {
   padding: 2.18rem 0 0 0;
 }
+
+@media screen and (max-width: 1135px) {
+  .difference__link {
+    text-align: center;
+  }
+}

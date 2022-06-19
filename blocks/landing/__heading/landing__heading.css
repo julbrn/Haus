@@ -1,6 +1,6 @@
 .landing__heading {
   z-index: 4;
-  width: 31rem;
+  max-width: 31rem;
   height: 12rem;
   padding: 0 0 0 3.75rem;
   color: #fff;
