@@ -9,3 +9,10 @@
   margin: 0 1rem 0 3.75rem;
   padding: 0;
 }
+
+
+@media screen and (max-width: 1100px) {
+  .landing__paragraph{
+    margin-left: 15px;
+  }
+}

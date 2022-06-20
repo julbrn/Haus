@@ -27,6 +27,14 @@ const handleEscPress = (evt) => {
   }
 };
 
+//Закрытие попапов по клику на оверлей
+const windowWithPopup = document.querySelector(".popup");
+windowWithPopup.addEventListener("mousedown", function (evt) {
+    if (evt.target.classList.contains("popup_active")) {
+      closePopup(evt.target);
+    }
+  });
+
 let slideIndex = 1;
 showSlide(slideIndex);
 

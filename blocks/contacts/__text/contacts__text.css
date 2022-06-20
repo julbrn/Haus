@@ -7,3 +7,10 @@
   max-width: 80%;
   margin: 0 auto;
 }
+
+
+@media screen and (max-width: 1060px) {
+  .contacts__text{
+    padding-top: 15px;
+  }
+}
