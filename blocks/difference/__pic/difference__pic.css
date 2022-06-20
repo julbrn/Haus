@@ -1,4 +1,4 @@
 .difference__pic {
-  width: 34.3rem;
-  height: 29.3rem;
+  max-width: 34.3rem;
+  height: auto;
 }
