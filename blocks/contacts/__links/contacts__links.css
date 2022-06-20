@@ -10,3 +10,12 @@
   flex-direction: column;
   justify-content: center;
 }
+
+@media screen and (max-width: 1060px) {
+  .contacts__links{
+    flex-wrap: wrap;
+    margin: 0 auto;
+    min-width: 50%;
+  }
+}
+

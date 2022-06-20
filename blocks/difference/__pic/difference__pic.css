@@ -2,3 +2,9 @@
   max-width: 34.3rem;
   height: auto;
 }
+
+@media screen and (max-width: 1400px) {
+  .difference__pic {
+    width: 100%;
+  }
+}

@@ -5,3 +5,11 @@
   text-align: center;
   min-height: 303px;
 }
+
+@media screen and (max-width: 1060px) {
+  .contacts__spotify {
+    margin: 0 auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+}

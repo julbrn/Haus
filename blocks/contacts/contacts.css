@@ -4,4 +4,12 @@
   display: flex;
   min-height: 568px;
   flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (max-width: 1240px) {
+  .contacts{
+    align-content: center;
+    justify-content: center;
+  }
 }

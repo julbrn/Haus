@@ -9,3 +9,11 @@
   justify-content: center;
   position: relative;
 }
+
+
+@media screen and (max-width: 800px) {
+  .popup__container {
+    width: 400px;
+    height: 320px;
+  }
+}
