@@ -2,6 +2,7 @@
   text-decoration: none;
   color: #fff;
   transition: opacity .7s ease-out;
+  padding: 15px;
 }
 
 .link:hover {

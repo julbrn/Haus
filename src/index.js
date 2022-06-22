@@ -1,3 +1,5 @@
+console.log('Hello, World!');
+
 const popup = document.querySelector('.popup');
 const popupForm = popup.querySelector('.popup__form');
 const closingButton = popup.querySelector('.popup__close-button');

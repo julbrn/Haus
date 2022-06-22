@@ -16,6 +16,12 @@
   opacity: 1;
 }
 
+.button:focus {
+  border: 1px #996B60 solid;
+  opacity: .8;
+  transform: scale(1.1);
+}
+
 
 
 

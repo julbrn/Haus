@@ -17,7 +17,7 @@
       <div class="landing__right-section">
         <h1 class="landing__heading">Alcohol for the modern drinker</h1>
         <p class="landing__paragraph">Light and refreshing flavors made with real, clean ingredients you can feel good about. Just pour, sip, and enjoy.</p>
-        <button class="button button_place_landing uppercase">Shop all</button>
+        <button tabindex="1"  class="button button_place_landing uppercase">Shop all</button>
       </div>
         <!---<img class="haus-logo" src="images/landing/Haus logo.svg" alt="HAUS logo"> -->
       <nav class="landing__nav">
@@ -45,13 +45,14 @@
           <blockquote class="quotes__text">“Cleaner, responsibly sourced, and lower in alcohol.”</blockquote>
           <img class="quotes__pic" src="images/quotes/bon_appetit_logo.png">
         </div>
-        <a class="arrow_button arrow_button_previous" onclick="changeSlide(-1)">&#x3c;</a>
-        <a class="arrow_button arrow_button_next" onclick="changeSlide(1)">&#x3e;</a>
+        <a tabindex="0" class="arrow_button arrow_button_previous" onclick="changeSlide(-1)">
+          &#x3c;</a>
+        <a tabindex="0" class="arrow_button arrow_button_next" onclick="changeSlide(1)">&#x3e;</a>
       </div>
       <div class="slider-dots">
-        <span class="slider-dot" onclick="currentSlide(1)"></span>
-        <span class="slider-dot" onclick="currentSlide(2)"></span>
-        <span class="slider-dot" onclick="currentSlide(3)"></span>
+        <span class="slider-dot" tabindex="0" onclick="currentSlide(1)"></span>
+        <span class="slider-dot" tabindex="0" onclick="currentSlide(2)"></span>
+        <span class="slider-dot" tabindex="0"  onclick="currentSlide(3)"></span>
       </div>
       <hr>
     </section>
@@ -225,6 +226,6 @@
       <a class="popup__password-reset">Forgot your password?</a>
     </div>
   </div>
-<script src="./scripts/index.js"></script>
+<script src="src/index.js"></script>
 </body>
 </html>
