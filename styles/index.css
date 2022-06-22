@@ -117,6 +117,18 @@ hr {
 .arrow_button:hover {
   transform: scale(1.2);
   opacity: 1;
+  border: none;
+  outline: none;
+}
+
+.arrow_button:focus {
+  border: none;
+  outline: none;
+}
+
+.arrow_button:active {
+  border: none;
+  outline: none;
 }
 
 .arrow_button_previous {
@@ -141,6 +153,13 @@ hr {
 .slider-dot:hover {
   border: 1px solid #ca8070;
   transform: scale(1.1);
+  border: none;
+  outline: none;
+}
+
+.slider-dot:focus {
+  border: none;
+  outline: none;
 }
 
 .slider-dots_active {
